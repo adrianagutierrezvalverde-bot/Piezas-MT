@@ -1,0 +1,11 @@
+PIEZAS MT — PROYECTO ANDROID V160
+
+Contiene el HTML original adjuntado, sin alterar, y una app Android WebView que lo muestra.
+
+Para generar APK: abrir esta carpeta en Android Studio (JDK 17), sincronizar Gradle y seleccionar Build > Build APK(s).
+El archivo resultante estará en app/build/outputs/apk/debug/app-debug.apk.
+
+IMPORTANTE: es un prototipo local. NO integra cuentas, base de datos, cobros, paquetería ni servicios reales.
+Los datos guardados en el navegador web no pasan automáticamente a la app. Respaldar antes de migrar.
+No publicar en Google Play ni usar pagos reales sin backend, controles de seguridad, pruebas y firma de publicación.
+Para generar un APK se necesita un entorno de compilación Android; el ZIP no es instalable directamente.
